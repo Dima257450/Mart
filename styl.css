@@ -1,0 +1,88 @@
+body{
+    background-color: #333;
+}
+
+
+h1, a{
+    font-size: 15vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ad32ad;
+    text-decoration: none;
+    text-shadow: 
+    0px 0px #c428c4,
+    0px 1px #ce58ce,
+    -1px 2px #684968,
+    -2px 3px #c428c4,
+    -3px 4px #381538,
+    -4px 5px #b661b6,
+    -5px 6px #493449;
+    position: relative;
+    text-align: center;
+    top: 7vh;
+}
+
+p{
+    font-size: 4vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #813c81;
+    text-decoration: none;
+    text-shadow: 
+    0px 0px #c428c4,
+    -2px 3px #c428c4;
+    position: relative;
+    text-align: center;
+    top: 10vh;
+}
+
+div{
+    background-color: #d9c3e7;
+    width: 100%;
+    height: 60vh;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px){
+    h1, a{
+        font-size: 10vh;
+    }
+
+    p{
+        font-size: 2vh;
+    }
+    
+    div{
+        max-width: 600px;
+    }
+    
+}
+    
+@media only screen and (min-width: 767px) and (max-width: 991px){
+    h1, a{
+        font-size: 14vh;
+    }
+
+    p{
+        font-size: 3vh;
+    }
+    
+    div{
+        max-width: 700px;
+    }
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    h1, a{
+        font-size: 15vh;
+    }
+
+    p{
+        font-size: 4vh;
+    }
+    
+    div{
+        max-width: 800px;
+    }
+    
+}
